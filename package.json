@@ -1,0 +1,29 @@
+{
+  "name": "scripps-auth",
+  "version": "0.0.1",
+  "description": "A simple key-pair-based token authentication library",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "Will Liu <scliu@scripps.edu>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
