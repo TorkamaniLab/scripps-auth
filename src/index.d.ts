@@ -1,3 +1,3 @@
 import { verify } from 'jsonwebtoken';
-
-export function validator(keyPath: string): typeof verify;
+import type {Checker} from './validate'
+export function validator(keyPath: string): Checker;

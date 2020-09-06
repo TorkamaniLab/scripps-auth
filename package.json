@@ -4,7 +4,8 @@
   "description": "A simple key-pair-based token authentication library",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "jest"
   },
   "author": "Will Liu <scliu@scripps.edu>",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.0",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "4.0.0",
+    "jest": "^26.4.2",
     "prettier": "^2.1.1",
     "typescript": "^4.0.2"
   },
